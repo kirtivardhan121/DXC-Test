@@ -1,0 +1,21 @@
+package com.dxc.cd.model;
+
+import java.util.Date;
+
+public class Item implements Comparable<Item>{
+
+	private int iCode;
+	private String iname;
+	private double price;
+	private String packageDate;
+	private String expiryDate;
+	private FoodCategory category;
+
+	public Item() {
+		//left unimplemented
+	}
+
+
+
+	
+}

@@ -1,0 +1,34 @@
+package com.dxc.lms.dao;
+
+import java.util.List;
+
+import com.dxc.lms.exception.BookException;
+import com.dxc.lms.model.Book;
+
+public class BookDAOImpl implements BookDAO {
+
+	@Override
+	public void addBook(Book book) throws BookException {
+		
+
+	}
+
+	@Override
+	public void deleteBook(int bcode) throws BookException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Book> getAllBooks() throws BookException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Book getBookByBcode(int bcode) throws BookException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

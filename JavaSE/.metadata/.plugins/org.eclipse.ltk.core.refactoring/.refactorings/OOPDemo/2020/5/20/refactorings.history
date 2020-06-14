@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.dxc.oopd.ui.ComplexNumber&apos; to &apos;ComplexNumberApp&apos;&#x0D;&#x0A;- Original project: &apos;OOPDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.dxc.oopd.ui.ComplexNumber&apos;&#x0D;&#x0A;- Renamed element: &apos;com.dxc.oopd.ui.ComplexNumberApp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ComplexNumber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.dxc.oopd.ui{ComplexNumber.java[ComplexNumber" matchStrategy="1" name="ComplexNumberApp" qualified="false" references="true" similarDeclarations="false" stamp="1589367962223" textual="false" version="1.0"/>
+</session>

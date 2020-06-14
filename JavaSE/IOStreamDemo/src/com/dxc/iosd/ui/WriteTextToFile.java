@@ -1,0 +1,44 @@
+package com.dxc.iosd.ui;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class WriteTextToFile {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter file name: ");
+		String fileName = sc.next();
+		
+		File file = new File(fileName);
+		StringBuilder fileContent = new StringBuilder();
+		System.out.println("Enter Some data in file (EOF to Stop)");
+		
+		try(BufferedReader kbIn = new BufferedReader(new InputStreamReader(System.in))){
+			
+			String line = "";
+			while(!line.equals("EOF") ) {
+				line = kbIn.readLine();
+				if(!line.equals("EOF")) {
+					fileContent.append(line + "\n");
+				}
+			}
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+		try(PrintWriter fout = new PrintWriter(new FileOutputStream(file))) {
+			fout.println(fileContent.toString());
+			System.out.println(fileName +" is saved @ " + file.getPath());
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+		sc.close();
+	}
+}

@@ -1,0 +1,12 @@
+127.0.0.1 - - [05/Jun/2020:08:25:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:25:13 +0530] "GET /LibraryManagementSystem_2.0/ HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:25:13 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:25:25 +0530] "GET /LibraryManagementSystem_2.0/viewBooks HTTP/1.1" 200 1323
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:25:42 +0530] "GET /LibraryManagementSystem_2.0/addBook HTTP/1.1" 200 942
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:27:26 +0530] "POST /LibraryManagementSystem_2.0/confirmAddBook HTTP/1.1" 200 299
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:27:32 +0530] "GET /LibraryManagementSystem_2.0/viewBooks HTTP/1.1" 200 1507
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:27:45 +0530] "GET /LibraryManagementSystem_2.0/deleteBook?bcode=109 HTTP/1.1" 200 299
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:27:47 +0530] "GET /LibraryManagementSystem_2.0/viewBooks HTTP/1.1" 200 1325
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:27:53 +0530] "GET /LibraryManagementSystem_2.0/addBook HTTP/1.1" 200 942
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:28:10 +0530] "POST /LibraryManagementSystem_2.0/confirmAddBook HTTP/1.1" 200 299
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:08:28:13 +0530] "GET /LibraryManagementSystem_2.0/viewBooks HTTP/1.1" 200 1510

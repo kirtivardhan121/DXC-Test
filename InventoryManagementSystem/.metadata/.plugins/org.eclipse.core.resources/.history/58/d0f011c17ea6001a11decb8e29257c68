@@ -1,0 +1,50 @@
+<%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
+
+<html>
+<head>
+<title>Library Items</title>
+</head>
+<body>
+	<h2>Library Management - Items List</h2>
+	<hr />
+
+	<c:choose>
+		<c:when test="${books eq null }">
+			<p>
+				<strong>No books Found!</strong>
+		</c:when>
+		<c:when test="${books.size() eq 0 }">
+			<p>
+				<strong>No books Found!</strong>
+		</c:when>
+		<c:otherwise>
+
+			<table border="1" width="100%">
+				<tr>
+					<th>Book Code</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Date Of Package</th>
+					<th>Action</th>
+				</tr>
+				<c:forEach items="${books }" var="item">
+					<tr>
+						<td>${book.icode }</td>
+						<td>${book.iname }</td>
+						<td>${book.price }</td>
+						<td>${book.packageDate }</td>
+						<td><a href="deleteItem?icode=${book.icode }">Delete</a></td>
+					</tr>
+				</c:forEach>
+			</table>
+		</c:otherwise>
+	</c:choose>
+
+	<hr />
+	<nav>
+		<ul>
+			<li><a href="index.jsp">Home</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

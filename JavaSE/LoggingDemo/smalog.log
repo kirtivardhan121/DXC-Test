@@ -1,0 +1,10 @@
+26-May-2020 10:23:02 FATAL [UI] - A sample critical message
+26-May-2020 10:23:02 ERROR [UI] - A sample error message
+26-May-2020 10:23:02 INFO [UI] - A sample info message
+26-May-2020 10:23:02 DEBUG [UI] - A sample debug message
+26-May-2020 10:23:02 WARN [UI] - A sample warn message
+26-May-2020 10:25:37 FATAL [UI] - A sample critical message
+26-May-2020 10:25:37 ERROR [UI] - A sample error message
+26-May-2020 10:25:37 INFO [UI] - A sample info message
+26-May-2020 10:25:37 DEBUG [UI] - A sample debug message
+26-May-2020 10:25:37 WARN [UI] - A sample warn message

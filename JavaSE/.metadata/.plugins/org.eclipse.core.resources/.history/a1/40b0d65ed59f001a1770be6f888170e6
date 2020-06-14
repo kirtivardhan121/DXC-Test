@@ -1,0 +1,17 @@
+package com.dxc.td.test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import com.dxc.td.service.ArthOperation;
+
+public class ArthOperationTest {
+
+	@Test
+	public void testSum_givenZeros() {
+		ArthOperation arth = new ArthOperation();
+		int expected = 0;
+		int actual = arth.sum(0, 0);
+		Assertions.assertEquals(expected, actual);
+	}
+}

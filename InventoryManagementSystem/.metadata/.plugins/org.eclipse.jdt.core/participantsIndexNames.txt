@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\InventoryManagementSystem\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2721086884.index
+\InventoryManagementSystem_2.0\src
+C:\InventoryManagementSystem\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2220156444.index
+\LibraryManagementSystem_2.0\src

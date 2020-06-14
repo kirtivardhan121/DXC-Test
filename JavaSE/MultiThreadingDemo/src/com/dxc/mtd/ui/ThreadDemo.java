@@ -1,0 +1,28 @@
+package com.dxc.mtd.ui;
+
+import com.dxc.mtd.service.NumberCounterService;
+
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		NumberCounterService ncs1 = new NumberCounterService(1, 10, "t1");
+		NumberCounterService ncs2 = new NumberCounterService(100, 120, "t2");
+		NumberCounterService ncs3 = new NumberCounterService(400, 410, "t3");
+		NumberCounterService ncs4 = new NumberCounterService(500, 510, "t4");
+		
+		ncs1.start();
+		ncs2.start();
+		ncs3.start();
+		ncs4.start();
+		
+		try {
+			ncs1.join();
+			ncs2.join();
+			ncs3.join();
+			ncs4.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("program end");
+	}
+}

@@ -1,0 +1,87 @@
+package com.dxc.td.test;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import com.dxc.td.service.ArthOperation;
+
+public class ArthOperationTest {
+
+	ArthOperation arth;
+	
+	@BeforeEach
+	public  void setUp() {
+		arth new ArthOperation();
+	}
+	@AfterEach
+	public  void tearDown() {
+		arth = null;
+	}
+	@Test
+	public void testSum_givenZeros() {
+		
+		int expected = 0;
+		int actual = arth.sum(0, 0);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testSum_givenPositives() {
+	
+		int expected = 5;
+		int actual = arth.sum(3, 2);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testSum_givenNegatives() {
+		
+		int expected = -5;
+		int actual = arth.sum(-2, -3);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testSum_givenNegativeAndPositives() {
+		
+		int expected = 1;
+		int actual = arth.sum(-2, 3);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testProduct_givenZeros() {
+		
+		int expected = 0;
+		int actual = arth.product(0, 0);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testProduct_givenPositives() {
+		
+		int expected = 4;
+		int actual = arth.product(2, 2);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testProduct_givenNegatives() {
+		
+		int expected = 4;
+		int actual = arth.product(-2, -2);
+		Assertions.assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void testProduct_givenPositivesAndNegatives() {
+		
+		int expected = -4;
+		int actual = arth.product(-2, 2);
+		Assertions.assertEquals(expected, actual);
+	}
+}

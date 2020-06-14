@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=LibraryManagementSystem/src&lt;com.dxc.lms.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1590029570065"/>
+<typeInfo handle="=InventoryManagementSytem_1.1/src&lt;com.dxc.ims.service{ItemService.java[ItemService" modifiers="513" timestamp="1590032816615"/>
+<typeInfo handle="=LibraryManagementSystem/src&lt;com.dxc.lms.service{BookService.java[BookService" modifiers="513" timestamp="1590116092221"/>
+<typeInfo handle="=lms/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.lms.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1590253785662"/>
+<typeInfo handle="=lms/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.lms.service{BookService.java[BookService" modifiers="513" timestamp="1590255186698"/>
+<typeInfo handle="=ums/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.ums.dao{ApplyDAO.java[ApplyDAO" modifiers="513" timestamp="1591031687646"/>
+<typeInfo handle="=ums/C:\/Program Files\/Java\/jdk1.8.0_251\/jre\/lib\/rt.jar=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.beans(AppletInitializer.class[AppletInitializer" modifiers="1537" timestamp="1589219647860"/>
+<typeInfo handle="=ums/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.ums.service{ApplyService.java[ApplyService" modifiers="513" timestamp="1591031739273"/>
+<typeInfo handle="=InventoryManagementSystem_2.0/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.ims.dao{ItemDAO.java[ItemDAO" modifiers="513" timestamp="1590130778211"/>
+<typeInfo handle="=LibraryManagementSystem_2.0/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.lms.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1590253785662"/>
+</typeInfoHistroy>

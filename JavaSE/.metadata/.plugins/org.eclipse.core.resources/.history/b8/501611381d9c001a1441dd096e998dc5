@@ -1,0 +1,5 @@
+package com.dxc.mtd.model;
+
+public class Bus {
+
+}

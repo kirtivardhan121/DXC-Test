@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\InventoryManagementSystem\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2445564763.index
+58083511.index
+3639521960.index
+2560401935.index
+613615095.index
+3266327956.index
+3222582311.index

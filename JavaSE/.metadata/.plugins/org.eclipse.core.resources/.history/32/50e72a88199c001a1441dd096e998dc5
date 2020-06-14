@@ -1,0 +1,7 @@
+package com.dxc.mtd.service;
+
+public class NumberCounterService {
+
+	private int startAt;
+	private int stopAt;
+}
